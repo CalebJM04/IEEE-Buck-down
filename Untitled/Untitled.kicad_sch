@@ -1890,7 +1890,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ic:SOT95P280X110-6N"
 			(at 133.35 71.12 0)
 			(effects
 				(font
@@ -2355,7 +2355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IND_EPCOS_B82462A4_EPC"
+		(property "Footprint" "drum:IND_EPCOS_B82462A4_EPC"
 			(at 170.18 60.96 0)
 			(effects
 				(font
