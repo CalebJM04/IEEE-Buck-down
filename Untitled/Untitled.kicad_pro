@@ -226,24 +226,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "footprint_link_issues|1701800|609600|ede37e8a-e339-434e-8d18-9cd1490cb129|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|1333500|711200|8070e8d1-ab35-47de-8aec-bd7ad5a04c23|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "pin_to_pin|1701800|609600|dd6a3fbb-0d8e-4110-90be-0fd1c2627562|90fbc1f7-c25e-4921-8a60-10ece59497ca|/f79f3f11-fb75-40ce-b012-bbf43826134e|/f79f3f11-fb75-40ce-b012-bbf43826134e|/f79f3f11-fb75-40ce-b012-bbf43826134e",
-        ""
-      ],
-      [
-        "pin_to_pin|1854200|609600|aa6aa94b-e061-4da5-b68b-bf9d05001917|ce02b485-5d17-4c9f-b33e-1a6e4a464ebc|/f79f3f11-fb75-40ce-b012-bbf43826134e|/f79f3f11-fb75-40ce-b012-bbf43826134e|/f79f3f11-fb75-40ce-b012-bbf43826134e",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -577,12 +560,48 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
