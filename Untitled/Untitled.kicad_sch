@@ -1857,6 +1857,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
@@ -2126,6 +2127,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
@@ -2247,8 +2249,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6090c60f-137a-469f-bde0-d1d039b7f66a")
-		(property "Reference" "TP3"
-			(at 233.68 53.3399 90)
+		(property "Reference" "v_out1"
+			(at 233.68 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,6 +2265,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
@@ -2298,7 +2301,7 @@
 		(instances
 			(project "Untitled"
 				(path "/f79f3f11-fb75-40ce-b012-bbf43826134e"
-					(reference "TP3")
+					(reference "v_out1")
 					(unit 1)
 				)
 			)
@@ -2521,6 +2524,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
@@ -2708,8 +2712,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b104b151-e6b5-4d5c-ae89-4b44b8a057a0")
-		(property "Reference" "TP4"
-			(at 233.68 48.2599 90)
+		(property "Reference" "v_out2"
+			(at 233.68 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,6 +2728,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
@@ -2759,7 +2764,7 @@
 		(instances
 			(project "Untitled"
 				(path "/f79f3f11-fb75-40ce-b012-bbf43826134e"
-					(reference "TP4")
+					(reference "v_out2")
 					(unit 1)
 				)
 			)
@@ -2791,6 +2796,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
@@ -2842,7 +2848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8573cb3-098a-413e-abe1-fc7b13fb4d63")
-		(property "Reference" "12v_in"
+		(property "Reference" "12v_in1"
 			(at 83.82 52.5779 0)
 			(effects
 				(font
@@ -2858,9 +2864,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 86.36 57.15 0)
 			(effects
 				(font
@@ -2893,7 +2900,7 @@
 		(instances
 			(project ""
 				(path "/f79f3f11-fb75-40ce-b012-bbf43826134e"
-					(reference "12v_in")
+					(reference "12v_in1")
 					(unit 1)
 				)
 			)
@@ -3117,7 +3124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faf7b1a9-19fa-4391-8599-de4cddba49d6")
-		(property "Reference" "GND_in"
+		(property "Reference" "GND_in1"
 			(at 83.82 90.9319 0)
 			(effects
 				(font
@@ -3133,9 +3140,10 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 76.2 88.9 0)
 			(effects
 				(font
@@ -3168,7 +3176,7 @@
 		(instances
 			(project "Untitled"
 				(path "/f79f3f11-fb75-40ce-b012-bbf43826134e"
-					(reference "GND_in")
+					(reference "GND_in1")
 					(unit 1)
 				)
 			)
